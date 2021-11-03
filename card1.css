@@ -1,0 +1,104 @@
+.cardboby{
+    border:5px solid black ;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    width: 26%;
+    border-radius: 5%;
+}
+s{
+    color: blue;
+}
+h3{
+    color: crimson;
+}
+button{
+    padding: 2%;
+    background-color: purple;
+    color: brown;
+    border: 5px solid black;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardbody img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*upto now the designing is done in laptop*/
+/*now the potrait's performed in different device platforms*/
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardboby{
+        border:5px solid black ;
+        padding: 1%;
+        margin: 1%;
+        font-size: 30px;
+        width: 90%;
+        border-radius: 5%;
+    }
+    s{
+        color: blue;
+    }
+    h3{
+        color: crimson;
+    }
+    button{
+        padding: 2%;
+        background-color: purple;
+        color: brown;
+        border: 5px solid black;
+        font-size: 20px;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cardbody img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .cardboby{
+        border:5px solid black ;
+        padding: 1%;
+        margin: 1%;
+        font-size: 40px;
+        width: 40%;
+        border-radius: 5%;
+    }
+    s{
+        color: blue;
+    }
+    h3{
+        color: crimson;
+        text-align: center;
+    }
+    button{
+        padding: 2%;
+        background-color: purple;
+        color: brown;
+        border: 5px solid black;
+        font-size: 20px;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cardbody img{
+        width: 40%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+}
